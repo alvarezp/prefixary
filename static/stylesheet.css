@@ -1,0 +1,74 @@
+/*
+
+ Derechos Reservados (C) 2025, Octavio Alvarez Piza <octalgh@alvarezp.org>
+ Copyright (C) 2025, Octavio Alvarez Piza. All rights reserved.
+
+ This program is free software: you can redistribute it and/or
+ modify it under the terms of the GNU Affero General Public
+ License as published by the Free Software Foundation, either
+ version 3 of the License.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ Affero General Public License for more details.
+
+ You should have received a copy of the GNU Affero General Public
+ License version 3 along with this program. If not, see
+ <https://www.gnu.org/licenses/>.
+
+*/
+
+
+body {
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+.recordtype-FIXED {
+	font-weight: bold;
+}
+
+thead {
+	font-weight: bold;
+}
+
+td {
+	padding: 2px 7px;
+}
+
+.ancestor {
+	list-style: disc;
+	margin: 0.1em;
+}
+
+.found {
+	background: #bfb;
+	list-style: disc;
+	margin: 0.1em;
+}
+
+.not-found {
+	background: #fbb;
+	list-style: disc;
+	margin: 0.1em;
+}
+
+.direct-child {
+	background: #fff;
+	list-style: disc;
+	margin: 0.1em;
+}
+
+form {
+	display: inline;
+}
+
+.descmatch {
+	text-decoration: underline;
+}
+
+.descmatch-query {
+	font-style: italic;
+	text-decoration: underline;
+}
